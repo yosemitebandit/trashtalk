@@ -1,5 +1,6 @@
 # save this in /etc/nginx/sites-available/trashtalk.oakmachine.com
-# and link it to sites-enabled
+# link it to sites-enabled
+# and reload nginx
 
 server {
     listen 80;
