@@ -1,0 +1,12 @@
+# save this in /etc/nginx/sites-available/trashtalk.oakmachine.com
+# and link it to sites-enabled
+
+server {
+    listen 80;
+    server_name trashtalk.oakmachine.com;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/tmp/trashtalk-server.sock;
+    }
+}
