@@ -8,4 +8,5 @@ pep257==0.7.0
 pep8==1.7.0
 pyflakes==1.2.3
 pylama==7.0.9
+uWSGI==2.0.13.1
 Werkzeug==0.11.10
