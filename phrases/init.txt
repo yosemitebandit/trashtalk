@@ -4,3 +4,5 @@ booting up
 bleep blop boop, starting up
 loading my amazing programmer's work, one moment
 I can see the matrix
+initializing
+this is a bad idea
