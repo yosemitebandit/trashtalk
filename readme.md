@@ -6,6 +6,14 @@ read more at http://trashtalk.oakmachine.com
 
 ### ops
 
+locally:
+
+```
+$ python server.py
+```
+
+irl:
+
 ```
 $ git pull
 $ sudo service trashtalk-server restart
